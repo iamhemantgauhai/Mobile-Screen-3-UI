@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.nav {
+  height: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: blueviolet;
+  color: white;
+}
+
+.nav-img {
+  margin: 0 0 0 4vw;
+}
+
+.nav-state-select {
+  margin: 0 4vw 0 0;
+}
+
+#states {
+  border-style: none;
+  background: blueviolet;
+  color: white;
+}
+/* Navbar */
+
+/* Logo Keep Section */
+.logo-keep {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vw 2vw 0 2vw;
+  background: blueviolet;
+  align-items: center;
+}
+
+.cmpy-logo {
+  height: 3rem;
+  width: 5rem;
+  margin-left: .5rem;
+}
+
+.logo-keep-head {
+  color: gold;
+}
+
+.lk-text {
+  color: white;
+  padding: 0 0 0 4vw;
+  background: blueviolet;
+}
+/* Logo Keep Section */
+
+/* Select Section */
+.input-icons {
+  background: blueviolet;
+}
+
+.input-head {
+  font-size: 5vw;
+  margin-left: 4vw;
+  padding-top: 4vw;
+  color: white;
+}
+
+#choose {
+  width: 80%;
+  height: 2rem;
+  margin: 4vw;
+  border-radius: .4rem;
+}
+
+.submit-btn {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: .4rem;
+  background: gold;
+}
+/* Select Section */
+
+/* Duration Section */
+.duration {
+  background: blueviolet;
+}
+
+.duration-line {
+  width: 48vw;
+  color: black;
+}
+
+.duration-heading {
+  display: flex;
+  align-items: center;
+  margin-left: 3vw;
+  color: white;
+}
+
+/* .duration-line {
+  
+} */
+
+.cards {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1vw;
+  background: white;
+  text-align: center;
+  align-items: center;
+  padding: 2vw 0 0 0;
+}
+/* Duration Section */
+
+/* OR Section */
+.or-heading {
+  margin-top: 2vw;
+  padding-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+.or-line1 {
+  margin-right: 4vw;
+  width: 50vw;
+  color: black;
+}
+
+.or-line2 {
+  margin-left: 4vw;
+  width: 50vw;
+  color: black;
+}
+/* OR Section */
+
+/* Document Section */
+.document {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 4px solid lightgrey;
+}
+
+.doc-box {
+  display: flex;
+  justify-content: space-between;
+  background: blueviolet;
+  border-radius: 1rem;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  align-items: center;
+}
+
+.doc-img-box {
+  padding: 2rem;
+}
+
+.doc-img {
+  width: 2rem;
+  
+}
+
+.doc-head {
+  width: 100%;
+  font-size: 0.5rem;
+  color: white;
+}
+
+.greater-than-img {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: gold;
+}
+/* Document Section */
+
+/* Refer Section */
+.ticket {
+  padding-bottom: 2rem; 
+  border-bottom: 4px solid lightgray;
+}
+
+.ticket-box {
+  display: flex;
+  border-radius: 1rem;
+  background: rgba(77, 0, 128, 0.329);
+  margin-left: 4vw;
+  margin-right: 4vw;
+  align-items: center;
+}
+
+.ticket-head {
+  width: 80%;
+  margin: 4vw 0 4vw 4vw;
+}
+
+.ticket-img {
+  width: 4rem;
+  border-radius: 5rem; 
+  margin-right: 4vw;
+}
+/* Refer Section */
